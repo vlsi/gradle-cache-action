@@ -18,7 +18,7 @@ For instance, add `--build-cache` option whe
 1. Add the following to `.github/workflows/...`
 
 ```yaml
-- uses: burrunan/gradle-cache-action@release
+- uses: burrunan/gradle-cache-action@v1
   name: Cache .gradle
   with:
     # If you have multiple jobs, use distinct job-id in in case you want to split caches
@@ -32,7 +32,7 @@ For instance, add `--build-cache` option whe
 The default configuration should suit for most of the cases, however, there are extra knobs.
 
 ```yaml
-- uses: burrunan/gradle-cache-action@release
+- uses: burrunan/gradle-cache-action@v1
   name: Cache .gradle
   with:
     # If you have multiple jobs, use distinct job-id in in case you want to split caches
